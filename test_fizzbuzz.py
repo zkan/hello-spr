@@ -14,3 +14,8 @@ def test_it_should_return_2_when_input_2():
 def test_it_should_return_fizz_when_input_3():
     result = fizzbuzz(3)
     assert result == "Fizz"
+
+
+def test_it_should_return_fizz_when_input_6():
+    result = fizzbuzz(6)
+    assert result == "Fizz"
