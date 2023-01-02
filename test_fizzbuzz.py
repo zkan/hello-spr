@@ -16,11 +16,11 @@ def test_it_should_return_fizz_when_input_3():
     assert result == "Fizz"
 
 
-def test_it_should_return_fizz_when_input_6():
-    result = fizzbuzz(6)
-    assert result == "Fizz"
-
-
 def test_it_should_return_buzz_when_input_5():
     result = fizzbuzz(5)
     assert result == "Buzz"
+
+
+def test_it_should_return_fizz_when_input_6():
+    result = fizzbuzz(6)
+    assert result == "Fizz"
