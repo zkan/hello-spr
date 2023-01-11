@@ -1,3 +1,5 @@
+all: lint test
+
 test:
 	poetry run pytest
 
