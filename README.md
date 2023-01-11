@@ -8,10 +8,4 @@ Repo for experimenting with [spr](https://getcord.github.io/spr/index.html)
 make all
 ```
 
-```bash
-make test
-```
-
-```bash
-make lint
-```
+When we run the command above, it will run linting and testing for us.
