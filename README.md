@@ -5,9 +5,7 @@ Repo for experimenting with [spr](https://getcord.github.io/spr/index.html)
 ## Commands
 
 ```bash
-make test
+make all
 ```
 
-```bash
-make lint
-```
+When we run the command above, it will run linting and testing for us.
