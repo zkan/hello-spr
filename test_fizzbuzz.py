@@ -34,3 +34,8 @@ def test_it_should_return_buzz_when_input_10():
 def test_it_should_return_fizzbuzz_when_input_15():
     result = fizzbuzz(15)
     assert result == "FizzBuzz"
+
+
+def test_it_should_return_fizzbuzz_when_input_30():
+    result = fizzbuzz(30)
+    assert result == "FizzBuzz"
