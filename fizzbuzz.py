@@ -1,4 +1,7 @@
 def fizzbuzz(number: int) -> str:
+    """
+    FizzBuzz program
+    """
     if number % 3 == 0 and number % 5 == 0:
         return "FizzBuzz"
 
